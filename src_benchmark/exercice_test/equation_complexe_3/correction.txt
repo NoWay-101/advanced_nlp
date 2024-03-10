@@ -1,0 +1,6 @@
+Le fait de résoudre des systèmes avec des nombres complexes ne change pas la méthode de résolution.
+Seuls les calculs sont plus compliqués! On a {2z1−z2=i−2z1+3iz2=−17⟺{2z1−z2=i(3i−1)z2=−17+i (L1)+(L2)⟺{2z1= i+z2z2=−17+i3i−1.
+On met z2 sous forme algébrique en multipliant numérateur et dénominateur par −3i−1 et on trouve z2=2+5i. Finalement, revenant à z1, on trouve que z1=1+3i.
+Le système admet une unique solution donnée par z1=1+3i et z2=2+5i. On a {3iz1+i z2=i+7i z1+2z2=11i⟺{3iz1+i z2=i+7 3iz1+6z2=33i⟺{(i−6)z2=7−32i iz1+2z2=11i.
+On a donc z2=7−32i i−6=−2+5i après mise sous forme algébrique. On en déduit facilement que z1=1−4i.
+Ce second système admet donc une unique solution donnée par z1=1−4i et z2=−2+5i.

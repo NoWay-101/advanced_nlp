@@ -1,0 +1,20 @@
+Votre réponse pour la première fonction est correcte.
+
+Cependant, votre réponse pour la deuxième fonction est incorrecte. Vous affirmez que la deuxième fonction satisfait à la fois l'additivité et l'homogénéité et est donc une application linéaire. Mais en réalité, la deuxième fonction n'est pas une application linéaire.
+
+Pour illustrer pourquoi la deuxième fonction n'est pas linéaire, vérifions la propriété d'homogénéité. Lorsque nous appliquons la multiplication par un scalaire, nous obtenons :
+
+f(ku) = f(kx, ky) = (k(x + y), k(x - 2y), 1)
+kf(u) = k(x + y, x - 2y, 1) = (k(x + y), k(x - 2y), k)
+
+Étant donné que f(ku) ≠ k*f(u) (car 1 ≠ k), la deuxième fonction ne satisfait pas la propriété d'homogénéité. Par conséquent, il ne s'agit pas d'une application linéaire, contrairement à ce que vous avez affirmé.
+
+Deplus, vous ne montrer pas vos caclul pour cette exercice, la reponse aurait donc ete considerer comme invalid, meme si elle avait ete vraie.
+
+Vous avez fourni la réponse correcte pour la troisième fonction, qui n'est pas une application linéaire.
+
+En résumé :
+
+La première fonction est une application linéaire.
+La deuxième fonction n'est pas une application linéaire, contrairement à ce que vous avez affirmé.
+La troisième fonction n'est pas une application linéaire, comme vous l'avez correctement identifié.

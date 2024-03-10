@@ -1,0 +1,5 @@
+The student's answer is mostly correct. They have successfully identified the roots and poles of the given expression and correctly stated their multiplicity as 1. However, there is a small difference in the way the official correction presents the solution:
+
+The official correction emphasized that the only common root between both numerator and denominator is 1, which is excluded to avoid division by zero. The student's answer reached the same conclusion but in a slightly different manner. The student's answer provided a more detailed explanation and was done in a thorough manner, determining the order of multiplicity of the roots and poles.
+
+In summary, the student's answer is correct, and their approach to the problem is valid. Their explanation is detailed and provides a clear understanding of the solution.

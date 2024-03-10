@@ -1,0 +1,15 @@
+Pour démontrer qu'il n'existe pas de fraction rationnelle F telle que F² = X, nous pouvons utiliser une contradiction.
+
+Supposons qu'il existe une fraction rationnelle F telle que F² = X. 
+
+Maintenant, nous pouvons écrire la fraction rationnelle F sous sa forme la plus simple, c'est-à-dire, F = P/Q, où P et Q sont des polynômes sans facteur commun.
+
+En élevant (F = P/Q) au carré, nous obtenons : (P/Q)² = X. 
+
+En multipliant les deux côtés de l'équation par Q², nous avons : P² = X * Q².
+
+Cela signifie que P² est divisible par tous les facteurs de Q² et vice versa. Cependant, cela impliquerait que P a aussi tous les facteurs de Q.
+
+Mais cela est une contradiction, car au départ nous avons dit que P et Q sont sans facteur commun.
+
+Il n'est donc pas possible qu'il existe une fraction rationnelle F telle que F² = X.

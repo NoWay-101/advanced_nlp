@@ -1,0 +1,1 @@
+Dire si les applications suivantes sont des applications linéaires : f : R2 → R3, (x, y) ↦ (x + y, x − 2y, 0); f : R2 → R3, (x, y) ↦ (x + y, x − 2y, 1); f : R2 → R, (x, y) ↦ x2 − y2.

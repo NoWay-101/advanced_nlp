@@ -1,0 +1,3 @@
+The answer given by the student is incorrect. The student only states that to determine if a matrix is invertible, we need to calculate its determinant. While this is generally true, it is not enough to determine if a matrix is invertible. 
+
+To determine if a matrix is invertible, its determinant must be non-zero. However, the student did not calculate the determinants for any of the given matrices and did not provide the final determination for whether each matrix is invertible or not. Additionally

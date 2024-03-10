@@ -1,0 +1,5 @@
+The student's response is partially correct. They correctly substituted i into the polynomial to find P(i) and verified that P(i) = 0, which confirms that i is indeed a root of the polynomial. However, their subsequent steps to find the factorization of P over C are incorrect.
+
+In the official correction, it is shown that since P has real coefficients and i is a root, the conjugate -i must also be a root. Therefore, P(X) is divisible by (X - i)(X + i), which simplifies to X^2 + 1. The correct factorization is found by dividing P by (X^2 + 1), yielding P(X) = (X^2 + 1)(X^2 - 5X + 6), and further factoring it as (X - i)(X + i)(X - 2)(X - 3).
+
+The student's method using synthetic division is incorrect, and the final factorization they provided does not match the official solution. The student might have copied the coefficients wrong or made a computational error during the synthetic division process.

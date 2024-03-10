@@ -1,0 +1,9 @@
+La réponse que vous avez fournie est correcte. Vous avez correctement vérifié les propriétés de linéarité pour chaque application. Vous avez vérifié la propriété d'additivité en vérifiant si f(x1, y1) + f(x2, y2) est égal à f(x1 + x2, y1 + y2), et vous avez vérifié la propriété d'homogénéité en vérifiant si f(a * x, a * y) est égal à a * f(x, y).
+
+Vous avez correctement identifié que la première application f : R^2 -> R^3, avec (x, y) -> (x + y, x - 2y, 0), est une application linéaire, car elle satisfait à la fois les propriétés d'additivité et d'homogénéité.
+
+Vous avez également correctement identifié que la deuxième application f : R^2 -> R^3, avec (x, y) -> (x + y, x - 2y, 1), n'est pas une application linéaire, car elle viole la propriété d'additivité.
+
+De la même manière, vous avez correctement identifié que la troisième application f : R^2 -> R, avec (x, y) -> x^2 - y^2, n'est pas une application linéaire, car elle viole la propriété d'additivité.
+
+Votre réponse est correcte.

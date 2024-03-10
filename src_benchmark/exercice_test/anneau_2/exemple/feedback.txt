@@ -1,0 +1,9 @@
+The student's answer is mostly correct, but they failed to demonstrate additivity, which is a necessary property for Z[i] to be an anneau (ring). 
+
+To ensure that Z[i] is indeed a ring, we must also show that for any two elements z = a + ib and z' = a' + ib' in Z[i], their sum z + z' belongs to Z[i].
+
+z + z' = (a + a') + i(b + b')
+
+Since a, a', b, and b' are all integers, their sums (a + a') and (b + b') must also be integers. Therefore, the complex number (a + a') + i(b + b') is an element in Z[i], and Z[i] is closed under addition.
+
+In conclusion, although the student provided a correct proof for the multiplication property of Z[i], they should also demonstrate additivity to fully prove that Z[i] is a ring.

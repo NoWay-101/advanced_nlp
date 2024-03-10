@@ -1,0 +1,11 @@
+The answer provided by the student is correct. They have successfully demonstrated that there is no rational fraction F such that F² = X by using a contradiction.
+
+They assumed the existence of a rational fraction F such that F² = X and then proceeded to simplify F to its simplest form, P/Q, where P and Q are polynomials with no common factors.
+
+By squaring F, they obtained (P/Q)² = X. Multiplying both sides of the equation by Q², they got P² = X * Q².
+
+They argued that this implies that P² is divisible by all the factors of Q² and vice versa, which would mean that P also has all the factors of Q. However, this contradicts the initial assumption that P and Q have no common factors.
+
+Therefore, they concluded that it is not possible for a rational fraction F such that F² = X to exist.
+
+The correction provided by the student is not necessary for solving the exercise, as they successfully demonstrated the contradiction through their reasoning.

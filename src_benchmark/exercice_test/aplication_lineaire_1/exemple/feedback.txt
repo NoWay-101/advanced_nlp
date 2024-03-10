@@ -1,0 +1,17 @@
+The student's answer for the first function is correct.
+
+However, the student's answer for the second function is incorrect. The student claims that the second function satisfies both additivity and homogeneity and is a linear application. But the second function is actually not a linear application.
+
+To illustrate why the second function is not linear, let's check the homogeneity property. When we apply the scalar multiplication, we find:
+
+f(ku) = f(kx, ky) = (k(x + y), k(x - 2y), 1)
+k*f(u) = k*(x + y, x - 2y, 1) = (k(x + y), k(x - 2y), k)
+
+Since f(ku) ≠ k*f(u) (because 1 ≠ k), the second function does not satisfy the homogeneity property. Therefore, it is not a linear application.
+
+The student did provide the correct answer for the third function, which is not a linear application.
+
+In summary:
+- The first function is a linear application.
+- The second function is not a linear application, contrary to the student's claim.
+- The third function is not a linear application, as the student correctly identified.

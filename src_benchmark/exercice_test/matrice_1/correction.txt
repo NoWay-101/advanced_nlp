@@ -1,0 +1,1 @@
+On a (2In + B - 1)B + A(B - A - 1 + 2A - 1B) - AB = 2B + In + AB - In + 2B - AB = 4B. On a cette fois A(7In + A - 1) - B(5B - 1A + B - 1 + A) + A(B - 2In) = 7A + In - 5A - In - BA + AB - 2A = -BA + AB.

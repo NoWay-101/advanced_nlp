@@ -1,0 +1,60 @@
+Pour démontrer que l'ensemble des entiers de Gauss, noté Z[i], est un anneau, nous devons vérifier la propriétés suivante :
+
+
+Multiplication : Pour tout a + ib et c + id dans Z[i], leur produit (a + ib)(c + id) doit également appartenir à Z[i]. Nous pouvons procéder à la multiplication :
+
+(a + ib)(c + id) = ac + iad + ibc + i^2bd
+
+Comme i^2 = -1, nous pouvons simplifier cela en :
+
+ac - bd + i(ad + bc)
+
+Une fois de plus, les termes ac, bd, ad et bc sont tous des entiers, donc leur combinaison complexe (ac - bd) + i(ad + bc) est un nombre de Gauss.
+
+Ainsi, nous avons démontré que Z[i] est un anneau.
+
+Maintenant, démontrons la relation N(z)N(z') = N(zz') pour tout z et z' dans Z[i].
+
+Nous savons que N(z) = z * conjugué(z), où conjugué(z) représente le conjugué complexe de z.
+
+Prenons z = a + ib et z' = c + id.
+
+Alors, N(z)N(z') = (a + ib)(conjugué(a + ib))(c + id)(conjugué(c + id))
+
+             = (a + ib)(a - ib)(c + id)(c - id)
+
+             = (a^2 + b^2)(c^2 + d^2)
+
+             = (ac)^2 + (ad)^2 + (bc)^2 + (bd)^2
+
+             = (ac)^2 + (ad)^2 + 2abcd - 2abcd + (bd)^2
+
+             = (ac + bd)^2 + (ad - bc)^2
+
+             = N(zz')
+
+Ainsi, nous avons démontré que N(z)N(z') = N(zz').
+
+Ensuite, démontrons que pour tout entier de Gauss z, N(z) est un entier naturel.
+
+Nous savons que N(z) = z * conjugué(z). Comme z est un entier de Gauss, à savoir a + ib, où a et b sont des entiers, son conjugué sera conjugué(z) = a - ib.
+
+Donc, N(z) = (a + ib)(a - ib) = a^2 + b^2, qui est un carré dans Z (les carrés d'entiers sont des entiers naturels). Donc, N(z) est un entier naturel.
+
+Ensuite, supposons que z est un entier de Gauss inversible. Cela signifie qu'il existe un autre entier de Gauss z' tel que zz' = 1. Appliquons la fonction N des deux côtés de cette équation :
+
+N(zz') = N(1)
+
+N(z)N(z') = 1
+
+Nous savons que N(z) et N(z') sont tous deux des entiers naturels, et donc le produit de deux entiers naturels ne peut être égal à 1 que si ces entiers sont tous les deux égaux à 1 (car 1 est le seul entier naturel qui a un inverse multiplicatif entier naturel). Ainsi, nous avons N(z) = 1.
+
+Enfin, examinons les éléments inversibles de Z[i]. Nous savons que si N(z) = 1, alors z est un entier de Gauss inversible.
+
+Pour trouver ces entiers, nous devons résoudre l'équation a^2 + b^2 = 1, où a et b sont des entiers. Les solutions de cette équation sont :
+
+a = ±1, b = 0
+
+a = 0, b = ±1
+
+Par conséquent, les éléments inversibles de Z[i] sont 1, -1, i et -i.

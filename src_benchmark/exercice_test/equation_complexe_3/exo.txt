@@ -1,0 +1,3 @@
+Résoudre les systèmes suivants, d'inconnues les nombres complexes 
+system numero 1 z 1 et z 2 : { 2z 1 − z 2 = i − 2z 1 + 3i z 2 = − 17
+system numero 2 { 3i z 1 + i z 2 = i + 7i z 1 + 2z 2 = 11i On donnera les résultats sous forme algébrique.

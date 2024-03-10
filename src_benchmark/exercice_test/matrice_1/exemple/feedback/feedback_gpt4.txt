@@ -1,0 +1,22 @@
+The student's answer is not entirely correct. They made some errors in their simplification process, especially in the Expression numéro 2. 
+
+Here's the correct simplification for the Expression numéro 2:
+
+A(7In + A^(-1)) - B(5B^(-1)A + B^(-1) + A) + A(B - 2In)
+
+= 7(InA) + A^(-1)A - 5(B^(-1)BA) - B^(-1)B - B(A) + A(B) - 2(InA)
+
+Now simplifying using properties of matrices:
+
+= 7A + In - 5A - In - BA + AB - 2A
+
+Now regrouping:
+
+= 2A - BA + AB
+
+The student's answer simplifies to 5A - AIn + AB^(-1), which is not correct.
+
+In summary, the student made errors in simplifying Expression numéro 2. The correct final expressions should be:
+
+Expression numéro 1: 4B
+Expression numéro 2: 2A - BA + AB

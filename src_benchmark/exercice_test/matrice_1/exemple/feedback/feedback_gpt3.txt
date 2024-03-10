@@ -1,0 +1,11 @@
+The student's answer is incorrect. They made a mistake in simplifying the expressions.
+
+For the first expression, the student simplified it to: 3B + AB + 2A^(-1)AB - In + B^(-1)B - AB^2
+
+However, the correct simplification is: 4B
+
+For the second expression, the student simplified it to: 5A - AIn + AB^(-1)
+
+However, the correct simplification is: -BA + AB
+
+Therefore, the student made errors in both expressions.

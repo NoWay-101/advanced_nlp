@@ -1,0 +1,41 @@
+Pour démontrer que Z[i] est un anneau, il faut prouver les trois propriétés suivantes :
+
+1. Z[i] est un ensemble non vide : 
+   Z[i] est non vide car il contient au moins l'élément 0+0i, qui est le nombre complexe 0.
+
+2. Z[i] est fermé pour l'addition : 
+   Soit z1 = a1 + ib1 et z2 = a2 + ib2 deux entiers de Gauss. Leur somme est donnée par z1 + z2 = (a1 + a2) + i(b1 + b2). Puisque a1 et a2 sont des entiers, leur somme a1 + a2 est également un entier. De même, b1 + b2 est un entier. Ainsi, la somme z1 + z2 est un nombre complexe de la forme a + ib, avec a et b entiers, ce qui prouve que Z[i] est fermé pour l'addition.
+
+3. Z[i] est fermé pour la multiplication : 
+   Soit z1 = a1 + ib1 et z2 = a2 + ib2 deux entiers de Gauss. Leur produit est donné par z1 * z2 = (a1*a2 - b1*b2) + i(a1*b2 + a2*b1). Puisque a1, a2, b1, et b2 sont des entiers, leurs produits et sommes sont également des entiers. Ainsi, le produit z1 * z2 est un nombre complexe de la forme a + ib, avec a et b entiers, ce qui prouve que Z[i] est fermé pour la multiplication.
+
+En conclusion, Z[i] est bien un anneau.
+
+Maintenant, nous allons démontrer les deux autres affirmations :
+
+Pour tout nombre complexe z, on a N(z) = z¯ * z.
+
+1. Démonstration de N(z) * N(z') = N(z*z') :
+
+   Soit z = a + ib et z' = c + id deux nombres complexes.
+   N(z) * N(z') = (z¯ * z) * (z'¯ * z') = (a - ib) * (c - id) * (a + ib) * (c + id)
+               = (a*c + b*d + i(b*c - a*d)) * (a*c - b*d + i(a*d + b*c))
+               = (a*c + b*d) * (a*c - b*d) + i((b*c - a*d) * (a*d + b*c))
+               = (a*c)^2 - (b*d)^2 + i(b*c*a*d - a*b*d*c)
+               = (a^2 *c^2 - b^2 *d^2) + i(2abcd)
+               = N(z*z')
+
+2. Démonstration que N(z) est un entier naturel :
+
+   Soit z = a + ib un entier de Gauss.
+   N(z) = (a - ib) * (a + ib) = a^2 + b^2
+   Puisque a et b sont des entiers, a^2 et b^2 sont également des entiers. Par conséquent, N(z) est la somme de deux entiers et donc un entier naturel.
+
+Enfin, si z est un entier de Gauss inversible, alors N(z) = 1.
+
+Soit z = a + ib un entier de Gauss inversible.
+Puisque z est inversible, il existe un autre entier de Gauss z' = c + id tel que z * z' = 1.
+Donc N(z) * N(z') = N(1) = 1.
+Comme N(z) et N(z') sont des entiers naturels, cela implique que N(z) = 1.
+
+Les éléments inversibles de Z[i] sont ceux pour lesquels leur norme est égale à 1, c'est-à-dire les entiers de Gauss de la forme ±1, ±i.

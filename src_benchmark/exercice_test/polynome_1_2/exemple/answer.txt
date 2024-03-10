@@ -1,0 +1,32 @@
+Let's solve each problem separately:
+
+P0 = 1 + √3X - 2X^2
+Degree: 2 (the highest power of X)
+Dominant coefficient: -2
+
+P1 = X^7 + 4X^8 + (1-i)X^3
+Degree: 8 (the highest power of X)
+Dominant coefficient: 4
+
+P2 = 3X(1 + X^2) + 2X^3 - 1
+Degree: 3 (the highest power of X)
+Dominant coefficient: 2
+
+P3 = (i + X)(1 + 3X^2 - iX)
+Degree: 3 (the highest power of X)
+Dominant coefficient: 3 - i
+
+P4 = 4∑k=1 (k! + 1)X^k
+Degree: 4 (the highest power of X)
+Dominant coefficient: 4
+
+P5 = (3X - 7X^2 + 4)'
+Degree: 1 (the highest power of X after taking the derivative)
+Dominant coefficient: -14 (coefficient of X^1)
+
+P6 = [X(X + 1)(X + 2)(X + 3)(X + 4)]'
+Degree: 4 (the highest power of X after taking the derivative)
+Dominant coefficient: 5 (coefficient of X^4)
+
+P7 = (1 - X^n)(1 + X)^2 + X^(n + 2), n ≥ 0.
+The degree and dominant coefficient cannot be determined without knowing the value of n.

@@ -1,0 +1,33 @@
+To determine whether the given functions are linear applications, we need to check if they satisfy two properties: additivity and homogeneity.
+
+1. For the first function: f(x, y) = (x + y, x - 2y, 0)
+
+Additivity: Let's check if f(u + v) = f(u) + f(v) holds for any vectors u = (x1, y1) and v = (x2, y2).
+
+f(u + v) = f(x1 + x2, y1 + y2) = ((x1 + x2) + (y1 + y2), (x1 + x2) - 2(y1 + y2), 0)
+f(u) + f(v) = (x1 + y1, x1 - 2y1, 0) + (x2 + y2, x2 - 2y2, 0) = ((x1 + x2) + (y1 + y2), (x1 + x2) - 2(y1 + y2), 0)
+
+Since f(u + v) = f(u) + f(v), the first function satisfies additivity.
+
+Homogeneity: Let's check if f(ku) = k*f(u) holds for any scalar k and vector u = (x, y).
+
+f(ku) = f(kx, ky) = ((kx) + (ky), (kx) - 2(ky), 0) = (k(x + y), k(x - 2y), 0)
+k*f(u) = k*(x + y, x - 2y, 0) = (k(x + y), k(x - 2y), 0)
+
+Since f(ku) = k*f(u), the first function satisfies homogeneity.
+
+Therefore, the first function is a linear application.
+
+2. For the second function: f(x, y) = (x + y, x - 2y, 1)
+
+Using the same logic as above, we can check that the second function also satisfies both additivity and homogeneity. Thus, it is a linear application.
+
+3. For the third function: f(x, y) = x^2 - y^2
+
+Additivity: f(u + v) = (x1 + x2)^2 - (y1 + y2)^2 ≠ f(u) + f(v)
+
+Since f(u + v) ≠ f(u) + f(v), the third function does not satisfy additivity. Therefore, it is not a linear application.
+
+In summary:
+- The first two functions are linear applications.
+- The third function is not a linear application.

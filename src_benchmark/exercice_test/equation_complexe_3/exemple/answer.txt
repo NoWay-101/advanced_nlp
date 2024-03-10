@@ -1,0 +1,105 @@
+Bonjour ! Je serai ravi de résoudre ces systèmes d'équations pour vous. Commençons par le système numéro 1 :
+
+Système numéro 1 :
+z1 et z2 :
+{
+2z1 - z2 = i - 2
+-z1 + 3iz2 = -17
+
+Pour résoudre ce système, nous allons utiliser la méthode d'élimination.
+
+Équation 1 x 2 : 
+4z1 - 2z2 = 2i - 4
+
+Équation 2 x 1i :
+-i z1 + 3iz2 = -i17
+
+Maintenant, ajoutons les deux équations :
+4z1 - 2iz2 - iz1 + 3iz2 = 2i - 4 - i17
+
+Simplifions l'équation :
+3z1 + iz2 = -2i - 4 + 17i
+3z1 + iz2 = 17i - 2i - 4
+3z1 + iz2 = 15i - 4
+
+Maintenant, isolons z1 en utilisant l'équation 1 :
+z1 = (15i - 4 - iz2) / 3
+
+Substituons cette valeur de z1 dans l'équation 1 initial :
+2((15i - 4 - iz2) / 3) - z2 = i - 2
+(30i - 8 - 2iz2) / 3 - z2 = i - 2
+30i - 8 - 2iz2 - 3z2 = 3i - 6
+30i - 8 - 3z2(1 + 2i) = 3i - 6
+
+Réarrangons cette équation :
+3(10i - 2) = 3(1 + 2i + z2)
+30i - 6 = 3 + 6i + 3z2
+30i - 6i - 3 = 6i + 3z2
+24i - 3 = 3z2
+z2 = (24i - 3) / 3
+z2 = 8i - 1
+
+Maintenant que nous avons la valeur de z2, substituons-la dans l'équation précédente pour trouver z1 :
+z1 = (15i - 4 - i(8i - 1)) / 3
+z1 = (15i - 4 - 8i² + i) / 3
+z1 = (15i - 4 + 8 + i) / 3
+z1 = (16i + 4) / 3
+z1 = 16i/3 + 4/3
+
+Donc, la solution du système numéro 1 est :
+z1 = 16i/3 + 4/3
+z2 = 8i - 1
+
+Passons maintenant au système numéro 2 :
+
+Système numéro 2 :
+{
+3iz1 + iz2 = i + 7
+iz1 + 2z2 = 11i
+
+Pour résoudre ce système, nous pouvons utiliser la méthode de substitution.
+
+À partir de la première équation, isolons z2 en utilisant la seconde équation :
+z2 = (11i - iz1) / 2
+
+Substituons maintenant cette valeur de z2 dans la première équation :
+3iz1 + i((11i - iz1) / 2) = i + 7
+3iz1 + (11i² - i²z1) / 2 = i + 7
+3iz1 + (11i² + z1) / 2 = i + 7
+(6iz1 + 11i² + z1) / 2 = i + 7
+6iz1 + 11i² + z1 = 2(i + 7)
+6iz1 + 11(-1) + z1 = 2i + 14
+6iz1 - 11 + z1 = 2i + 14
+
+Réarrangeons cette équation :
+6iz1 + z1 = 2i + 14 + 11
+(6i + 1)z1 = 2i + 25
+z1 = (2i + 25) / (6i + 1)
+
+Maintenant, substituons cette valeur de z1 dans l'équation de départ :
+iz1 + 2z2 = 11i
+i((2i + 25) / (6i + 1)) + 2z2 = 11i
+(2i² + 25i) / (6i + 1) + 2z2 = 11i
+(-2 + 25i) / (6i + 1) + 2z2 = 11i
+(25i - 2) / (6i + 1) + 2z2 = 11i
+(25i - 2) + 2z2(6i + 1) = 11i(6i + 1)
+25i - 2 + 12iz2 + 2z2 = 66i² + 11i
+25i - 2 + 12iz2 + 2z2 = -66 + 11i
+
+Réarrangeons cette équation :
+25i - 2 + 12iz2 + 2z2 = -66 + 11i
+12iz2 + 2z2 = -66 + 11i - 25i + 2
+12iz2 + 2z2 = -64 - 14i
+
+Réarrangeons davantage :
+2z2(1 + 6i) = -64 - 14i
+z2 = (-64 - 14i) / (2(1 + 6i))
+z2 = (-64 - 14i) / (2 + 12i)
+z2 = (-2(32 + 7i)) / (2(1 + 6i))
+z2 = (-32 - 7i) / (1 + 6i)
+
+Par conséquent, la solution du système numéro 2 est :
+z1 = (2i + 25) / (6i + 1)
+z2 = (-32 - 7i) / (1 + 6i)
+
+J'espère que cela vous aide ! Dites-moi si vous avez d'autres questions.

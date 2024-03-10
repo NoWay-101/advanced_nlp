@@ -1,0 +1,9 @@
+Votre réponse est en grande partie correcte, mais il y a quelques différences mineures dans la présentation et certaines explications par rapport à la correction officielle.
+
+Votre réponse démontre avec succès que Z[i] est un anneau en montrant qu'il est non vide et fermé sous l'addition et la multiplication. Les explications fournies sont claires et logiquement fondées.
+
+Votre réponse passe ensuite à démontrer les deux autres affirmations, à savoir que N(z)*N(z')=N(zz') et que N(z) est un entier naturel, ce qui est également correct et bien expliqué.
+
+Cependant, votre explication pour trouver les inverses de Z[i] est légèrement différente de la correction officielle, mais pas incorrecte. Votre réponse indique que les éléments inversibles dans Z[i] ont une norme égale à 1, ce qui donne les quatre éléments ±1, ±i, tandis que la correction officielle trouve d'abord les cas pour (a,b) basés sur a²+b² = 1, ce qui donne également les éléments ±1, ±i.
+
+Dans l'ensemble, votre réponse est correcte et démontre une compréhension des concepts impliqués, même si la présentation et les explications diffèrent légèrement de celles de la correction officielle. Votre travail est bien fait.

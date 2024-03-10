@@ -1,0 +1,7 @@
+Non! Considérons les fonctions f et g définies par f(x) = x et g(x) = x.
+Alors pour tout x ∈ R, (f+g)(x) = 2x de sorte que ϕ1(f+g)(x) = 4x^2, alors que ϕ1(f)(x) + ϕ1(g)(x) = x^2 + x^2 = 2x^2.
+On a donc ϕ1(f+g) ≠ ϕ1(f) + ϕ1(g) et donc ϕ1 n'est pas une application linéaire. Oui! Soit f, g dans E et λ ∈ R.
+Alors pour tout x ∈ R, ϕ2(f+g)(x) = (f+g)(x^2) = f(x^2) + g(x^2) = ϕ2(f)(x) + ϕ2(g)(x) et ϕ2(λf)(x) = (λf)(x^2) = λf(x^2) = λϕ2(f)(x).
+Remarquons que la place du carré (sur la variable ici) diffère de la place du carré dans la première question (sur la fonction).
+Oui! Ceci découle de la linéarité de l'intégrale. Soit f, g dans E et λ ∈ R.
+Alors pour tout x ∈ R, ϕ3(f+g)(x) = ∫x0 (f+g)(t) dt = ∫x0 f(t) dt + ∫x0 g(t) dt = ϕ3(f)(x) + ϕ3(g)(x) et ϕ3(λf)(x) = ∫x0 (λf)(t) dt = λ∫x0 f(t) dt = λϕ3(f)(x).

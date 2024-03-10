@@ -1,0 +1,3 @@
+The student's answer is partially correct. They have the right idea of determining if the matrix is invertible - by calculating its determinant. However, they did not actually calculate the determinants for each matrix. They also did not calculate the inverse of each invertible matrix.
+
+In the official correction of the exercise, all the steps are provided to determine if the matrices are invertible by using the Gaussian elimination method (pivot de Gauss) and calculating the inverse of the invertible matrices by continuing this method.

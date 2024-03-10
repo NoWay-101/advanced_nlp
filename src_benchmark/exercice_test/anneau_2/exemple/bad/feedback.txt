@@ -1,0 +1,9 @@
+Votre réponse est en grande partie correcte, mais vous n'avez pas réussi à démontrer l'additivité, ce qui est une propriété nécessaire pour que Z[i] soit un anneau.
+
+Pour garantir que Z[i] est effectivement un anneau, nous devons également montrer que pour deux éléments quelconques z = a + ib et z' = a' + ib' dans Z[i], leur somme z + z' appartient à Z[i].
+
+z + z' = (a + a') + i(b + b')
+
+Étant donné que a, a', b et b' sont tous des entiers, leurs sommes (a + a') et (b + b') doivent également être des entiers. Par conséquent, le nombre complexe (a + a') + i(b + b') est un élément de Z[i], et Z[i] est fermé sous l'addition.
+
+En conclusion, bien que vous ayez fourni une preuve correcte pour la propriété de multiplication de Z[i], vous devriez également démontrer l'additivité pour prouver pleinement que Z[i] est un anneau.

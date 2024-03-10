@@ -1,0 +1,19 @@
+To determine if a matrix is invertible, we need to calculate its determinant. If the determinant is non-zero, then the matrix is invertible.
+
+Let's calculate the determinant for each matrix:
+
+For matrix A:
+A =
+⎛
+⎜
+⎝
+1 1 2 
+1 2 1 
+2 1 1 
+⎞
+⎟
+⎠
+
+We can calculate the determinant by using the formula:
+
+det(A)

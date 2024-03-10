@@ -1,0 +1,1 @@
+Dire si les matrices suivantes sont inversibles et, le cas échéant, calculer leur inverse : A = ⎛ ⎜ ⎝ 1 1 2 1 2 1 2 1 1 ⎞ ⎟ ⎠ , B = ⎛ ⎜ ⎝ 0 1 2 1 1 2 0 2 3 ⎞ ⎟ ⎠ , C = ⎛ ⎜ ⎝ 1 4 7 2 5 8 3 6 9 ⎞ ⎟ ⎠ , I = ⎛ ⎜ ⎝ i − 1 2 i 2 0 2 − 1 0 1 ⎞ ⎟ ⎠ .

@@ -1,0 +1,33 @@
+To determine if the given functions are linear transformations, we need to check if they satisfy the properties of linearity.
+
+1. For ϕ1:
+ϕ1(f)(x) = (f(x))^2
+
+To check if it's linear, let's consider two functions f and g in E and a scalar k.
+
+ϕ1(f + g)(x) = (f(x) + g(x))^2 = (f(x))^2 + 2f(x)g(x) + (g(x))^2
+ϕ1(f)(x) + ϕ1(g)(x) = (f(x))^2 + (g(x))^2
+
+Since (f(x))^2 + 2f(x)g(x) + (g(x))^2 is not equal to (f(x))^2 + (g(x))^2, ϕ1 does not satisfy the property of linearity. Therefore, ϕ1 is not a linear transformation.
+
+2. For ϕ2:
+ϕ2(f)(x) = f(x^2)
+
+To check linearity, again consider functions f and g in E and the scalar k.
+
+ϕ2(f + g)(x) = (f + g)(x^2) = f(x^2) + g(x^2)
+ϕ2(f)(x) + ϕ2(g)(x) = f(x^2) + g(x^2)
+
+Since ϕ2(f + g)(x) is equal to ϕ2(f)(x) + ϕ2(g)(x), ϕ2 satisfies the property of linearity. Therefore, ϕ2 is a linear transformation.
+
+3. For ϕ3:
+ϕ3(f)(x) = ∫[0,x] f(t) dt
+
+Again, let's check linearity by considering functions f and g in E and the scalar k.
+
+ϕ3(f + g)(x) = ∫[0,x] (f(t) + g(t)) dt = ∫[0,x] f(t) dt + ∫[0,x] g(t) dt
+ϕ3(f)(x) + ϕ3(g)(x) = ∫[0,x] f(t) dt + ∫[0,x] g(t) dt
+
+Since ϕ3(f + g)(x) is equal to ϕ3(f)(x) + ϕ3(g)(x), ϕ3 satisfies the property of linearity. Therefore, ϕ3 is a linear transformation.
+
+In conclusion, ϕ2 and ϕ3 are linear transformations, while ϕ1 is not.

@@ -1,0 +1,135 @@
+Bonjour! Pour résoudre ce problème, examinons l'expression 
+(
+X
+p
+−
+1
+)
+/
+(
+X
+q
+−
+1
+) en détail.
+
+Tout d'abord, identifions les racines de cette expression, c'est-à-dire les valeurs de x pour lesquelles le numérateur devient zéro. 
+Le numérateur (
+X
+p
+−
+1
+) est nul si et seulement si 
+X
+p
+=
+1
+. 
+Cela se produit lorsque 
+X
+ est une racine p-ième de l'unité. 
+Les racines p-ièmes de l'unité sont de la forme 
+e
+2
+π
+i
+k
+/
+p
+ pour 
+k
+ = 0, 1, 2, ..., p-1. 
+Cependant, nous devons exclure la valeur 
+k
+ = 0 car cela entraînerait une division par zéro. 
+Ainsi, les racines sont données par 
+e
+2
+π
+i
+k
+/
+p
+ pour 
+k
+ = 1, 2, ..., p-1.
+
+Ensuite, identifions les pôles de cette expression, c'est-à-dire les valeurs de x pour lesquelles le dénominateur devient zéro. 
+Le dénominateur (
+X
+q
+−
+1
+) est nul si et seulement si 
+X
+ est une racine q-ième de l'unité. 
+Les racines q-ièmes de l'unité sont de la forme 
+e
+2
+π
+i
+k
+/
+q
+ pour 
+k
+ = 0, 1, 2, ..., q-1. 
+De même, nous devons exclure la valeur 
+k
+ = 0 pour éviter une division par zéro. 
+Ainsi, les pôles sont donnés par 
+e
+2
+π
+i
+k
+/
+q
+ pour 
+k
+ = 1, 2, ..., q-1.
+
+Finalement, déterminons l'ordre de multiplicité des racines et des pôles. 
+L'ordre de multiplicité d'une racine ou d'un pôle est le nombre de fois que cette valeur apparaît dans l'expression. 
+Dans ce cas, chaque racine 
+e
+2
+π
+i
+k
+/
+p
+a une multiplicité de 1, car chaque racine apparaît une fois. 
+De même, chaque pôle 
+e
+2
+π
+i
+k
+/
+q
+a une multiplicité de 1.
+
+Ainsi, les racines de l'expression sont 
+e
+2
+π
+i
+k
+/
+p
+ pour 
+k
+ = 1, 2, ..., p-1, et les pôles sont 
+e
+2
+π
+i
+k
+/
+q
+ pour 
+k
+ = 1, 2, ..., q-1.
+Chacune de ces valeurs a une multiplicité de 1. 
+J'espère que cela répond à votre question! Si vous avez besoin d'une explication supplémentaire, n'hésitez pas à demander.

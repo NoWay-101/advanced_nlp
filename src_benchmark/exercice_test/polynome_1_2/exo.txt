@@ -1,0 +1,1 @@
+Pour chacun des polynômes suivants, donner son coefficient dominant ainsi que son degré. P0 = 1 + √3X − 2X2 P1 = X7 + 4X8 + (1 − i)X3 P2 = 3X(1 + X2) + 2X3 − 1 P3 = (i + X)(1 + 3X2 − iX) P4 = 4∑k=1 (k! + 1)Xk P5 = (3X − 7X2 + 4)' P6 = [X(X + 1)(X + 2)(X + 3)(X + 4)]' P7 = (1 − Xn)(1 + X)2 + Xn + 2, n ≥ 0.

@@ -1,0 +1,49 @@
+The student's answer contains some mistakes. Here are the corrections:
+
+System numéro 1:
+The student correctly writes the equations but makes an error when expanding the equations. The correct expanded equations are:
+
+4z1 - 2z2 = 2i - 4
+-iz1 + 3iz2 = -17
+
+Next, when combining the equations, the student mistakenly adds the terms in front of z1 and z2 on the left side instead of subtracting them. The correct combination is:
+
+4z1 - iz1 - 2z2 + 3iz2 = 2i - 4 - i17
+(4 - i)z1 + (3i - 2)z2 = -2i - 4
+
+From here, the student breaks down the equations and tries to isolate z1 and z2, but the calculations are incorrect. The correct following steps are:
+
+(4 - i)z1 = -2i - 4 - (3i - 2)z2
+z1 = (-2i - 4 - (3i - 2)z2) / (4 - i)
+
+Plugging this value of z1 back into the first equation gives:
+
+2((-2i - 4 - (3i - 2)z2) / (4 - i)) - z2 = i - 2
+(-4i - 8 - (3i - 2)z2) / (4 - i) - z2 = i - 2
+((-4i - 8) - (3i - 2)z2) / (4 - i) - z2 = i - 2
+(-4i - 8 - 3iz2 + 2z2) / (4 - i) - z2 = i - 2
+((-3i + 2) - (3i - 2)z2) / (4 - i) = i - 2 + z2(4 - i)
+
+Simplifying the equation further leads to:
+
+(-3i + 2 - 3iz2 + 2z2) / (4 - i) = i - 2 + 4z2 -iz2
+(-3i - 3iz2 + 2 + 2z2) / (4 - i) = 4z2 + i(1 - z2)
+
+Now, the student makes another mistake while rearranging the equation. The correct rearrangement should be:
+
+(-3i + 2 - iz2(3 + 2i)) / (4 - i) = (4 - z2)(1 + i)
+
+From here, the student should solve this equation to find the value of z2, and then substitute it back into the equation to find z1. However, the student does not continue with the correct steps.
+
+System numéro 2:
+The student starts by correctly setting up the equations, but again makes mistakes when combining and simplifying the equations.
+
+The correct combination of equations is:
+
+(3i - 6)z2 = 7 - 11i
+(3iz1 + iz2) + 2z2 = i + 11i
+(3iz1 + iz2) + 2z2 = 12i
+
+The student fails to simplify the equation and solve for z1 and z2.
+
+In conclusion, the student's answer contains several mistakes in the calculations and the steps followed to solve the systems.

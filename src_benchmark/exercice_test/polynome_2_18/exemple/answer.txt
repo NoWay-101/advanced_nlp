@@ -1,0 +1,42 @@
+Pour vérifier si i est une racine du polynôme P(X), nous devons substituer i dans le polynôme P(X) et voir si l'équation est satisfaite. 
+
+P(i) = i^4 - 5i^3 + 7i^2 - 5i + 6
+
+Maintenant, rappelons que i est défini comme la racine carrée de -1, c'est-à-dire i^2 = -1.
+
+En substituant cette valeur dans l'équation, nous obtenons :
+
+P(i) = (-1)^2 - 5(-1)^3 + 7(-1)^2 - 5i + 6
+      = 1 + 5 + 7 - 5i + 6
+      = 19 - 5i
+
+Donc, P(i) = 19 - 5i.
+
+Maintenant, pour vérifier si i est une racine du polynôme, nous devons voir si P(i) = 0.
+
+P(i) = 0 si 19 - 5i = 0
+
+En isolant i, nous obtenons :
+
+5i = 19
+i = 19/5
+
+Donc, i est une racine du polynôme P(X).
+
+Maintenant, pour trouver la factorisation de P sur C (les nombres complexes), nous pouvons diviser P par le binôme (X - i). Utilisons la division synthétique :
+
+         i   |   1   | -5   |  7   | -5   |  6
+        _______________________________________
+           |       |  i    |  2i  |  5i  | -5 + i
+        _______________________________________
+          1   |  1   -i   |  2i  + i^2   |  5i  + 5   |  -5 + i  +  6
+                        = -1 +  i   | -2 - 2i   | -5 + i
+        _______________________________________
+
+La division synthétique nous donne : 
+
+P(X) = (X - i)(-1 + i)(X^2 - 2 - 2i)(X - 5 + i)
+
+Donc, la factorisation de P sur C est :
+
+P(X) = (X - i)(-1 + i)(X^2 - 2 - 2i)(X - 5 + i)

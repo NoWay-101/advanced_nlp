@@ -1,0 +1,3 @@
+The student's answer is not correct, but their approach using contradiction is a valid attempt. The main issue with their answer is the assumption that P² being divisible by all factors of Q² implies that P has all the factors of Q. This is not necessarily true, as demonstrated with numbers: (2/3)² = 4/9, and 4 is not divisible by 3.
+
+The official correction is based on the degree of the polynomial, which is a more suitable and straightforward way to prove the impossibility of the existence of a rational fraction F such that F² = X.

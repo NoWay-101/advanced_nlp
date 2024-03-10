@@ -1,0 +1,64 @@
+Pour simplifier les expressions données, nous allons utiliser les propriétés des matrices inversibles et les règles de manipulation des matrices. Commençons par simplifier l'expression numéro 1 :
+
+Expression numéro 1:
+(2In + B^(-1))B + A(B - A^(-1) + 2A^(-1)B) - AB
+
+Nous allons distribuer les termes à l'intérieur des parenthèses :
+
+= 2InB + B^(-1)B + AB - AA^(-1) + 2A^(-1)AB - ABB
+
+Maintenant, nous pouvons simplifier certains termes en utilisant les propriétés des matrices inversibles :
+
+- AA^(-1) = In (l'inverse de A fois A^(-1) donne la matrice identité In)
+
+Maintenant, réorganisons les termes :
+
+= 2InB + B^(-1)B + AB - In + 2A^(-1)AB - ABB
+
+Maintenant, nous pouvons simplifier davantage :
+
+- InB = B (la multiplication de In par B donne simplement B)
+- ABB = AB^2 (la multiplication de AB par B donne AB^2)
+
+Réorganisons encore une fois les termes :
+
+= 2B + B^(-1)B + AB - In + 2A^(-1)AB - AB^2
+
+Maintenant, nous pouvons regrouper certains termes :
+
+= 2B + AB + 2A^(-1)AB - In + B^(-1)B - AB^2
+
+Et nous pouvons enfin simplifier l'expression finale :
+
+= 3B + AB + 2A^(-1)AB - In + B^(-1)B - AB^2
+
+Maintenant, passons à simplifier l'expression numéro 2 :
+
+Expression numéro 2:
+A(7In + A^(-1)) - B(5B^(-1)A + B^(-1) + A) + A(B - 2In)
+
+Distribuons les termes à l'intérieur des parenthèses :
+
+= 7AIn + AA^(-1) - 5B^(-1)AB - B^(-1)B - BA + B^(-1)A + AB - 2AIn
+
+Simplifions les termes en utilisant les propriétés des matrices inversibles :
+
+- B^(-1)B = In (l'inverse de B fois B^(-1) donne la matrice identité In)
+- AA^(-1) = In (l'inverse de A fois A^(-1) donne la matrice identité In)
+- B^(-1)AB = A (l'inverse de B fois B^(-1) fois A simplifie à A)
+- B^(-1)A = AB^(-1) (l'inverse de B^(-1) fois A simplifie à AB^(-1))
+- BA = AB (l'ordre de multiplication des matrices n'a pas d'importance)
+
+Réorganisons les termes :
+
+= 7AIn + In - 5A - In + AB^(-1) - AB + AB - 2AIn
+
+Maintenant, regroupons certains termes :
+
+= 7AIn - 5A - In + AB^(-1) - AB + AB - 2AIn
+
+Et simplifions davantage :
+
+= 5A - AIn + AB^(-1)
+
+Et voilà, les expressions ont été simplifiées au maximum.

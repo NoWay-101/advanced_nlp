@@ -1,0 +1,1 @@
+Soient p et q deux entiers naturels premiers entre eux. Déterminer les racines et les pôles de (Xp−1)/(Xq−1), en précisant leur ordre de multiplicité.

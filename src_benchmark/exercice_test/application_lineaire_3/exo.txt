@@ -1,0 +1,1 @@
+Soit E l'espace vectoriel C(R,R) l'espace vectoriel des fonctions continues sur R. Dire si les applications suivantes sont des applications linéaires : ϕ1: E → E, ϕ1(f)(x) = (f(x))^2; ϕ2: E → E, ϕ2(f)(x) = (f(x^2)); ϕ3: E → E, ϕ3(f)(x) = ∫x0 f(t) dt;

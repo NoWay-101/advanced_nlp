@@ -1,0 +1,5 @@
+f est une application linéaire. Prenons u = (x, y) et v = (x′, y′) dans R2, et λ ∈ R. Alors : f(u + v) = ((x + x′) + (y + y′), (x + x′) − 2(y + y′), 0) = (x + y, x − 2y, 0) + (x′ + y′, x′ − 2y′, 0) = f(u) + f(v). De même, f(λu) = (λx + λy, λx − 2λy, 0) = λ(x + y, x − 2y, 0) = λf(u).
+ 
+f n'est pas une application linéaire car f((0, 0)) ≠ (0, 0, 0).
+ 
+f n'est pas une application linéaire. En effet, f((1, 0)) = 1, f((-1, 0)) = 1 et f((0, 0)) = 0 ≠ f((1, 0)) + f((-1, 0)).

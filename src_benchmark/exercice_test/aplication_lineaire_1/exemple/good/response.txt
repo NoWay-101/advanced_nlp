@@ -1,0 +1,29 @@
+"Pour déterminer si ces applications sont linéaires, nous devons vérifier si elles respectent deux propriétés : l'additivité et l'homogénéité.
+
+- Pour la première application f : R^2 -> R^3, avec (x, y) -> (x + y, x - 2y, 0) :
+
+1) Vérifions l'additivité : f(x1, y1) + f(x2, y2) = (x1 + y1, x1 - 2y1, 0) + (x2 + y2, x2 - 2y2, 0)
+= (x1 + y1 + x2 + y2, x1 - 2y1 + x2 - 2y2, 0)\n= (x1 + x2 + y1 + y2, x1 + x2 - 2y1 - 2y2, 0)
+
+Maintenant, f(x1 + x2, y1 + y2) = (x1 + x2 + y1 + y2, (x1 + x2) - 2(y1 + y2), 0)
+= (x1 + x2 + y1 + y2, x1 + x2 - 2y1 - 2y2, 0)
+
+Nous pouvons observer que f(x1, y1) + f(x2, y2) = f(x1 + x2, y1 + y2), ce qui respecte l'additivité.
+
+2) Vérifions l'homogénéité : f(a * x, a * y) = (a * x + a * y, a * x - 2(a * y), 0)
+= (a * (x + y), a * (x - 2y), 0)
+= a * (x + y, x - 2y, 0)
+
+Nous pouvons constater que f(a * x, a * y) = a * f(x, y), ce qui respecte l'homogénéité.
+
+Par conséquent, la première application f : R^2 -> R^3 est une application linéaire.
+- Pour la deuxième application f : R^2 -> R^3, avec (x, y) -> (x + y, x - 2y, 1) :
+En vérifiant les mêmes critères, nous constatons que :
+
+1) L'additivité n'est plus respectée car si nous calculons f(x1, y1) + f(x2, y2) et f(x1 + x2, y1 + y2), les résultats seront différents dans la troisième composante (0 vs 1). Par conséquent, cette application n'est pas linéaire.
+
+- Pour la troisième application f : R^2 -> R, avec (x, y) -> x^2 - y^2 :
+
+1) L'additivité est également violée car f(x1, y1) + f(x2, y2) ne sera pas équivalent à f(x1 + x2, y1 + y2) (les termes quadratiques sont affectés différemment par l'addition). Par conséquent, cette application n'est pas linéaire.
+
+En résumé, seule la première application f : R^2 -> R^3, avec (x, y) -> (x + y, x - 2y, 0), est une application linéaire."
